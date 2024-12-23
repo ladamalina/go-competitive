@@ -2,6 +2,8 @@ package main
 
 import "os"
 
+var DEBUG bool = false
+
 func Solution() {
 	// problem solution goes here
 }

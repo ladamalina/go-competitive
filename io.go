@@ -1,7 +1,5 @@
 package main
 
-// vim:set ft=go:
-
 import (
 	"fmt"
 	"os"

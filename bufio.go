@@ -1,12 +1,9 @@
 package main
 
-// vim:set ft=go:
-
 import (
 	"bufio"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"strconv"
 )
 
@@ -29,7 +26,7 @@ func NewFullBufferedReader(r io.Reader) (*FullBufferedReader, error) {
 
 func (r *FullBufferedReader) ensureBuffered() error {
 	if r.b == nil {
-		b, err := ioutil.ReadAll(r.r)
+		b, err := io.ReadAll(r.r)
 		if err != nil {
 			return err
 		}
