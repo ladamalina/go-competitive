@@ -5,7 +5,7 @@ import "os"
 var DEBUG bool = false
 
 func Solution() {
-	// problem solution goes here
+	// your code goes here
 }
 
 func main() {
