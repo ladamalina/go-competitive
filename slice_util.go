@@ -54,10 +54,7 @@ func SliceLess[T any](s []T, t []T, less func(a, b T) bool) bool {
 			return false
 		}
 	}
-	if len(s) < len(t) {
-		return true
-	}
-	return false
+	return len(s) < len(t)
 }
 
 func SliceUniq[T comparable](s []T) []T {

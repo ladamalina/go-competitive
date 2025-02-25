@@ -2,8 +2,6 @@ package main
 
 import "math"
 
-// vim:set ft=go:
-
 // snip ------------------------------------------------------------------------
 
 const sort_insertion_threashold = 12

@@ -35,7 +35,7 @@ func RotateLeft[T any](s []T, n int) {
 	}
 
 	Reverse(s[0:n])
-	Reverse(s[n:len(s)])
+	Reverse(s[n:])
 	Reverse(s)
 }
 
