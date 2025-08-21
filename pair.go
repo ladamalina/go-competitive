@@ -1,7 +1,5 @@
 package main
 
-// vim:set ft=go:
-
 // snip ------------------------------------------------------------------------
 
 type Pair[T1, T2 any] struct {

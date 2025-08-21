@@ -1,7 +1,5 @@
 package main
 
-// vim:set ft=go:
-
 // snip ------------------------------------------------------------------------
 
 type Stack[T any] struct {
