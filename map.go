@@ -1,7 +1,5 @@
 package main
 
-// vim:set ft=go:
-
 // snip ------------------------------------------------------------------------
 
 // Map replesents a ordered map using LLRB

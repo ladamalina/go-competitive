@@ -1,7 +1,5 @@
 package main
 
-// vim:set ft=go:
-
 // snip ------------------------------------------------------------------------
 
 type Trie[V any] struct {
